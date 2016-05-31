@@ -11,7 +11,7 @@ Android Test
 
 .. toctree::
 	:maxdepth: 2 
-	:numbered: 1 
+	:numbered: 2 
 
 	01_Android_Umeng_Channel_Verify
 
