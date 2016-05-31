@@ -36,8 +36,3 @@ Sphinx
 sphinx-rtd-theme 
 Werkzeug 
 xlwt 
-zopecomponent 
-zopedeprecation 
-zopeevent 
-zopeinterface 
-zopelifecycleevent 
