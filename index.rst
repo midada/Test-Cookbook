@@ -11,8 +11,6 @@
    - 作者：米大大
    - 微信公众号: midada_note
 
-Contents:
-
 .. toctree::
    :maxdepth: 2
    :glob:
