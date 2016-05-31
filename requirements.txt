@@ -12,3 +12,4 @@ setuptools
 six
 snowballstemmer
 Sphinx
+sphinx-rtd-theme
