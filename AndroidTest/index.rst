@@ -6,9 +6,9 @@
 
 
 .. toctree::
-	:maxdepth: 1
-	:numbered: 1
+   :maxdepth: 1
+   :numbered: 1
 
-	01_Android_Umeng_Channel_Verify
+   01_Android_Umeng_Channel_Verify
 
 
