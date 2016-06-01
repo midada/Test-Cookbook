@@ -14,7 +14,6 @@
    :maxdepth: 2
    :glob:
 
-   introduction
    AndroidTest/index
 
 
