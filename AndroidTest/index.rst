@@ -1,13 +1,10 @@
 
 
-=================
-1. Android Test
-=================
+======================
+第一章： Android 测试
+======================
+
 记录Android Test中遇到的问题.
-
-.. note::
-
-	记录Android Test.如Android渠道测试、签名验证等.	
 
 .. toctree::
 	:maxdepth: 1
