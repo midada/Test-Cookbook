@@ -53,5 +53,5 @@ a. 反编译Android Apk
     I: Copying original files...
 
 
- **备注** : Android apk整体反编译所需时间较长，如只获取AndroidManifest.xml文件，那么只需反编译
+**备注** : Android apk整体反编译所需时间较长，如只获取AndroidManifest.xml文件，那么只需反编译
  资源文件即可，不对源代码进行反编译，使用参数 **-s** ,只需花费很少时间.
