@@ -1,5 +1,5 @@
 
-Android渠道版本渠道号验证
+验证Android渠道版本渠道号
 ==============================
 
 国内市场上有许许多多的应用市场，常见的有：百度、360、腾讯应用宝、豌豆荚等。
@@ -19,6 +19,7 @@ Android Apk的渠道号一般存放在AndroidManifest.xml文件中。
 
  - 批量反编译Android Apk
  - 遍历反编译后的apk文件夹，从AndroidManifest.xml取出渠道号
+ - 比较渠道号与apk名称
  - 将测试结果写入csv文件
 
  
