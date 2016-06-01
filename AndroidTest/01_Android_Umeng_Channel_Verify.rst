@@ -28,7 +28,7 @@ a. 反编译Android Apk
 
 反编译Apk,得到源文件和资源文件.
 
-渠道号存放在**AndroidManifest.xml**文件中。
+渠道号存放在 **AndroidManifest.xml** 文件中。
 
 反编译工具apktool.jar: https://bitbucket.org/iBotPeaches/apktool/downloads
 
