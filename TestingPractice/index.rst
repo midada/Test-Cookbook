@@ -1,7 +1,7 @@
 
 
 ======================
-第二章: Android 测试
+第一章: 测试实践
 ======================
 
 
@@ -9,6 +9,6 @@
 	:maxdepth: 1
 	:numbered: 1
 
-	01_Android_Umeng_Channel_Verify
+	
 
 
