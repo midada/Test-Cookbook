@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-软件测试-实用手册
+测试实用手册
 =========================================
 
    
@@ -15,6 +15,7 @@
    :glob:
 
    foreword
+   TestingPractice/index
    AndroidTest/index
 
 
