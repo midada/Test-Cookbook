@@ -58,3 +58,39 @@ a. 反编译Android Apk
 **备注:** 
 Android apk整体反编译所需时间较长，如只获取AndroidManifest.xml文件，那么只需反编译
 资源文件即可，不对源代码进行反编译，使用参数 **-s** ,只需花费很少时间.
+
+b. 获取渠道号
+
+----
+
+遍历AndroidManifest.xml文件，取出渠道号所在行.
+
+python实现如下：
+
+.. code-block:: python
+
+    with open(manifest,'r+') as m:
+        umeng_line = [ line.strip() for line in m.readlines() if 'UMENG_CHANNEL' in line ]
+    #取出渠道号所在行后，进行分割、去除.
+
+
+或者直接输入编译后的apk文件夹，具体如下：
+
+.. code-block:: python
+
+    def get_apk_umeng_value(reverse_folder):
+        umeng_channel = []  
+        for rfn in reverse_folder:
+            manifest = os.path.join(version_catalogue,rfn,'AndroidManifest.xml')
+            with open(manifest,'r+') as m:
+                umeng_line = [ line.strip() for line in m.readlines() if 'UMENG_CHANNEL' in line ]
+                    for ul in umeng_line:
+                        ucv = ul.split('=')[2]
+                        #使用strip过滤"/>//--等特殊字符
+                        umeng_channel.append(ucv.strip('"/>// --'))
+        return umeng_channel
+
+
+**完整代码地址：**
+
+    https://github.com/midada/Android-Test/blob/master/channelverify.py
