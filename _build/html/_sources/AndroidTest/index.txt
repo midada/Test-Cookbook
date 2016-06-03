@@ -1,18 +1,21 @@
 
 
+======================
+第二章: Android 测试
+======================
 
-Android Test
-==============
-记录Android Test中遇到的问题.
+测试，打造完美移动应用的关键。
 
-.. note::
+**Android发版前测试注意事项**
 
-	记录Android Test.如Android渠道测试、签名验证等.	
+    #. 验证Android渠道版本版本号
+    #. Android每个渠道版本冒烟测试
+    #. Android签名检查
 
 .. toctree::
-	:maxdepth: 2 
-	:numbered: 2 
+   :maxdepth: 1
+   :numbered: 1
 
-	01_Android_Umeng_Channel_Verify
-
+   01_Android_Umeng_Channel_Verify
+   02_signature_verification
 
