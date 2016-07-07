@@ -10,5 +10,5 @@ Android测试,发版前要对渠道版本进行渠道号验证、冒烟测试、
    :maxdepth: 1
    :numbered: 1
 
-   01_Appium_API.rst
+   01_Appium_Python_API.rst
 
