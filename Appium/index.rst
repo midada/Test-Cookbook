@@ -4,7 +4,7 @@
 第三章: Appium
 ======================
 
-Android测试,发版前要对渠道版本进行渠道号验证、冒烟测试、签名检查！
+使用Appium对app进行测试
 
 .. toctree::
    :maxdepth: 1
