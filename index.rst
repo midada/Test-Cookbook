@@ -18,7 +18,7 @@
    foreword
    TestingPractice/index
    AndroidTest/index
-
+   Appium/index
 
 
 Indices and tables
