@@ -11,4 +11,4 @@
    :numbered: 1
 
    01_Appium_Python_API.rst
-
+   02_Appium_element_locate.rst
