@@ -52,6 +52,10 @@ Api : 文件操作相关
     path = "/data/file.txt" 
 
     driver.push_file(path,data.encode('base64'))
+    
+3.截图
+
+    driver.get_screenshot_as_file('login.png')
 
 Api : 屏幕相关
 -------------------------
