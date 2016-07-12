@@ -8,7 +8,7 @@ uiautomatorviewer是Android SDK自带的工具，在$ANDROID_HOME/tools目录下
 
 点击uiautomatorviewer.bat后,将鼠标置于元素之上，如下：
 
-.. image :: _static/image/UI_Automator_Viewer.png
+.. image :: ../_static/image/UI_Automator_Viewer.png
 
 使用resource_id定位：
 
