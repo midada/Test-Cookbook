@@ -1,5 +1,5 @@
 
-使用uiautomatorviewer定位android App页面元素
+使用resource_id定位元素
 ============================================
 
 uiautomatorviewer是Android SDK自带的工具，在$ANDROID_HOME/tools目录下。
