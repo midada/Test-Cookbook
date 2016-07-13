@@ -5,7 +5,8 @@ Appium 键盘事件
 
 1.键盘重要键
 --------------------------------
-.. coding:python::
+.. code-block:python::
+
   回车键(Enter)          66
 
   空格键(Space)          62
