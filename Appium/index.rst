@@ -6,6 +6,7 @@
 
 使用Appium对app进行测试
 
+.. image :: ../_static/image/appium_selenium_python.bmp
 .. toctree::
    :maxdepth: 1
    :numbered: 1
