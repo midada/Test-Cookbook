@@ -12,3 +12,4 @@
 
    01_Appium_Python_API.rst
    02_Appium_element_locate.rst
+   03_Appium_keyevent.rst
