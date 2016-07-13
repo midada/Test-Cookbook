@@ -5,14 +5,14 @@ Appium 键盘事件
 
 1.键盘重要键
 --------------------------------
+.. coding:python::
+  回车键(Enter)          66
 
-回车键(Enter)          66
+  空格键(Space)          62
 
-空格键(Space)          62
+  Tab键(Tab)             61
 
-Tab键(Tab)             61
-
-退格键(Backspace)      67
+  退格键(Backspace)      67
 
 
 2.手机实体键
