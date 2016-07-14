@@ -92,7 +92,7 @@ Appium 对 WebDriver 协议的扩展。当使用 Appium 的时候，你只需使
 所以你需要担心 Node。而且这个封装包含了一个 Inspector 工具，可以让使用者检查应用的界面层级。
 这样写测试用例的时候就非常方便了。
 
-.. Appium GUI下载地址:: https://bitbucket.org/appium/appium.app/downloads/
+.. Appium GUI下载地址:https://bitbucket.org/appium/appium.app/downloads/
 
 .. image :: ../_static/image/appium_selenium_python.jpg
 
