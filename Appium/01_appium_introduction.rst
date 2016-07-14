@@ -4,7 +4,7 @@
 前言
 ======================
 
-使用Appium对app进行测试
+使用Appium_Python_Client连接Apppium服务器进行测试！
 
 .. toctree::
    :maxdepth: 1
