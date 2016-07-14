@@ -19,4 +19,4 @@
    05_Android_element_locate.rst
    06_ios_element_locate.rst
    07_swipe.rst
-   08_assert.md
+   08_assert.rst
