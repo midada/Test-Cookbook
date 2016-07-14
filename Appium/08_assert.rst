@@ -5,8 +5,8 @@
 
 比如判断activity：
 
-`
-assertEqual(".activity.MainActivity",driver.current_activity)
-`
+.. code-block:: python
+
+  assertEqual(".activity.MainActivity",driver.current_activity)
 
 
