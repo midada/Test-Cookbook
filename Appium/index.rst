@@ -29,7 +29,8 @@ Appium 的理念
 3. 一个移动自动化的框架不应该在接口上重复造轮子。（移动自动化的接口应该统一）
 4. 无论是精神上，还是名义上，都必须开源。
 
-## Appium 设计
+Appium 设计
+----------------------------------
 
 那么 Appium 架构是如何实现这个哲学呢？为了满足第一条，Appium 真正的工作引擎其实是第三方自动化框架。
 这样，我们就不需在你的应用里植入 Appium 特定或者第三方的代码。这就意味着你在测试你将发布的应用。我们
@@ -54,7 +55,8 @@ HTTP 客户，可以以任何你喜欢的方式潜入你的代码。换句话说
 
 第四条就不用说了，[Appium 是开源的](https://github.com/appium/appium)。
 
-## Appium 概念
+Appium 概念
+----------------------------------
 
 **C/S 架构**
 Appium 的核心是一个 web 服务器，它提供了一套 REST 的接口。它收到客户端的连接，监听到命令，
@@ -75,7 +77,6 @@ Desired capabilities 是一些键值对的集合 (比如，一个 map 或者 has
 `platformName` capability 设置为 `iOS`，告诉 Appium 服务端，我们想要一个
 iOS 的 session，而不是一个 Android 的。我们也可以设置 `safariAllowPopups` capability 为 `true`，
 确保在 Safari 自动化 session 中，我们可以使用 javascript 来打开新窗口。
-参见 [capabilities 文档](caps.cn.md)，查看完整的 capabilities 列表。
 
 **Appium Server**
 Appium server 是用 nodejs 写的。我们可以用源码编译或者从 NPM 直接安装。
@@ -84,7 +85,6 @@ Appium server 是用 nodejs 写的。我们可以用源码编译或者从 NPM �
 
 Appium 服务端有很多语言库 Java, Ruby, Python, PHP, JavaScript 和 C#，这些库都实现了
 Appium 对 WebDriver 协议的扩展。当使用 Appium 的时候，你只需使用这些库代替常规的 WebDriver 库就可以了。
-你可以从[这里](appium-clients.cn.md)看到所有的库的列表。
 
 **Appium.app, Appium.exe**
 
@@ -92,6 +92,7 @@ Appium 对 WebDriver 协议的扩展。当使用 Appium 的时候，你只需使
 所以你需要担心 Node。而且这个封装包含了一个 Inspector 工具，可以让使用者检查应用的界面层级。
 这样写测试用例的时候就非常方便了。
 
+[Appium GUI下载地址](https://bitbucket.org/appium/appium.app/downloads/)
 
 .. image :: ../_static/image/appium_selenium_python.jpg
 
