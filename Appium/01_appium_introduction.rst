@@ -1,12 +1,10 @@
 
 
 ======================
-第三章: Appium
+前言
 ======================
 
 使用Appium对app进行测试
-
-.. image :: ../_static/image/appium_selenium_python.jpg
 
 .. toctree::
    :maxdepth: 1
