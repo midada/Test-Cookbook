@@ -1,6 +1,9 @@
 
-使用resource_id定位元素
+Android元素定位
 ============================================
+
+uiautomatiorviewer
+---------------------------------------------
 
 uiautomatorviewer是Android SDK自带的工具，在$ANDROID_HOME/tools目录下。
 
@@ -10,7 +13,8 @@ uiautomatorviewer是Android SDK自带的工具，在$ANDROID_HOME/tools目录下
 
 .. image :: ../_static/image/UI_Automator_Viewer.png
 
-使用resource_id定位：
+使用resource_id定位
+-------------------------------------
 
 .. code-block:: python
 
