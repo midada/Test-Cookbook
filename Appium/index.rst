@@ -53,7 +53,7 @@ HTTP 客户，可以以任何你喜欢的方式潜入你的代码。换句话说
 所以我们扩充了[WebDriver 的协议](https://github.com/SeleniumHQ/mobile-spec/blob/master/spec-draft.md)，
 在原有的基础上添加移动自动化相关的 API 方法，这也也满足了第三条理念。
 
-第四条就不用说了，[Appium 是开源的](https://github.com/appium/appium)。
+第四条就不用说了，Appium 是开源的，https://github.com/appium/appium
 
 Appium 概念
 ----------------------------------
@@ -62,7 +62,7 @@ Appium 概念
 Appium 的核心是一个 web 服务器，它提供了一套 REST 的接口。它收到客户端的连接，监听到命令，
 接着在移动设备上执行这些命令，然后将执行结果放在 HTTP 响应中返还给客户端。事实上，这种客户端/服务端的
 架构打开了许多可能性：比如我们可以使用任何实现了客户端的语言来写我们的测试代码。比如我们可以把服务端放在不同
-的机器上。比如我们可以只写测试代码，然后使用像 [Sauce Labs](https://saucelabs.com/mobile) 这样的云服务来解释命令。
+的机器上。
 
 **Session**
 自动化总是在一个 session 的上下文中运行。客户端初始化一个和服务端交互的 session。不同的语言有不同的实现方式，
@@ -92,7 +92,7 @@ Appium 对 WebDriver 协议的扩展。当使用 Appium 的时候，你只需使
 所以你需要担心 Node。而且这个封装包含了一个 Inspector 工具，可以让使用者检查应用的界面层级。
 这样写测试用例的时候就非常方便了。
 
-[Appium GUI下载地址](https://bitbucket.org/appium/appium.app/downloads/)
+.. Appium GUI下载地址:: https://bitbucket.org/appium/appium.app/downloads/
 
 .. image :: ../_static/image/appium_selenium_python.jpg
 
