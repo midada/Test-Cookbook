@@ -34,11 +34,34 @@ Android屏幕滑动
 .. image:: ../_static/image/appium_swipe.jpg
 
 
-左滑
+屏幕左滑
 ---------------------------
 
 .. code-block:: python
 
     driver.swipe(height/4*3,width/2,height/4,width/2,800)
+
+屏幕右滑
+-------------------------------
+
+.. code-block:: python
+
+    driver.swipe(height/4,width/2,height/4*3,width/2,800)
+
+屏幕下滑
+--------------------------------
+
+.. code-block:: python
+
+    driver.swipe(height/2,width/4,height/2,width/4*3,800)
+
+屏幕上滑
+--------------------------------
+
+.. code-block:: python
+
+    driver.swipe(height/2,width/4*3,height/2,width/4,800)
+
+
 
 
