@@ -21,7 +21,7 @@ Android屏幕滑动
 
 图解：
 
-.. image:: ../_static/image/appium_swipe.png
+.. image:: ../_static/image/appium_swipe.jpg
 
 
 1.获取手机分辨率
