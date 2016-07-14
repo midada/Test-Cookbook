@@ -1,7 +1,7 @@
 
 
 ======================
-Appium简单介绍
+Appium入门
 ======================
 
 使用Appium_Python_Client连接Apppium服务器进行测试！
