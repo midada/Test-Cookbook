@@ -10,7 +10,10 @@
    :maxdepth: 1
    :numbered: 1
 
-   01_Appium_Python_API.rst
-   02_Appium_element_locate.rst
-   03_Appium_keyevent.rst
-   04_Appium_swipe.rst
+   01_appium_introduction.rst
+   02_appium_install_config.rst
+   03_Python_API.rst
+   04_keyevent.rst
+   05_Android_element_locate.rst
+   06_ios_element_locate.rst
+   07_swipe.rst
