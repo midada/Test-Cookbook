@@ -1,7 +1,7 @@
 
 
 ======================
-第三章: Appium-Python
+第三章: Appium
 ======================
 
 .. image :: ../_static/image/appium_selenium_python.jpg
