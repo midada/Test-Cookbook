@@ -1,7 +1,7 @@
 
 
 ======================
-Appium入门
+Appium知识入门
 ======================
 
 本章引用：https://github.com/appium/appium/blob/master/docs/old/cn/intro.cn.md
