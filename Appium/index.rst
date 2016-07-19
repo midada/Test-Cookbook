@@ -1,7 +1,7 @@
 
 
 ======================
-第三章: Appium
+第三章: Appium:
 ======================
 
 由于Python语言友好易用简洁，因此采用Appium_Python_Client作为客户端。
@@ -21,3 +21,5 @@
    07_swipe.rst
    08_assert.rst
    09_chinese_input.rst
+   configparser.rst
+
