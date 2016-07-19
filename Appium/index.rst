@@ -20,3 +20,4 @@
    06_ios_element_locate.rst
    07_swipe.rst
    08_assert.rst
+   09_chinese_input.rst
