@@ -27,13 +27,14 @@ Appium中文输入问题
 说明
 -----------------------
 
+::
     Android tests allow for Unicode input by installing and using a specialized keyboard 
     that allows the text to be passed as ASCII text between Appium and the application
     being tested.
 
-    In order to utilize this functionality, set the **unicodeKeyboard** desired capability is 
-    set to *true*. If the keyboard should be returned to its original state, the **resetKeyboard** 
-    desired capability should also be set to *true*. Otherwise Appium’s Unicode keyboard will
+    In order to utilize this functionality, set the unicodeKeyboard desired capability is 
+    set to true. If the keyboard should be returned to its original state, the resetKeyboard 
+    desired capability should also be set to true. Otherwise Appium’s Unicode keyboard will
     remain enabled on the device after the tests are completed.
 
-   Then tests can pass Unicode text to editable fields using **send_keys**
+    Then tests can pass Unicode text to editable fields using send_keys
