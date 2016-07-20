@@ -21,5 +21,6 @@
    07_swipe.rst
    08_assert.rst
    09_chinese_input.rst
+   appium_screenshot.rst 
    configparser.rst
 
