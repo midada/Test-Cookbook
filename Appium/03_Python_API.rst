@@ -72,6 +72,8 @@ Api : 屏幕相关
 
     driver.pinch(element=e1)
 
+    driver.zoom(element=e1)
+
 4.屏幕触摸
 
     action = TouchAction(driver) 
