@@ -1,8 +1,6 @@
 
-前言
-======================
-
-本章引用：https://github.com/appium/appium/blob/master/docs/old/cn/intro.cn.md
+Appium基础
+=========================
 
 Appium 介绍
 ----------------------------
@@ -100,3 +98,6 @@ Appium 对 WebDriver 协议的扩展。当使用 Appium 的时候，你只需使
    01_Appium_Python_API.rst
    02_Appium_element_locate.rst
    03_Appium_keyevent.rst
+
+
+本章引用：https://github.com/appium/appium/blob/master/docs/old/cn/intro.cn.md
