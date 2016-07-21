@@ -6,7 +6,7 @@ Appium Python Api
 Python API
 -------------------------
 
-table::
+使用 Appium Python Client进行测试。其API如下：
 
 +-----------------------+-------------------------------------------------+
 |        用途           |       Appium Api                                |
