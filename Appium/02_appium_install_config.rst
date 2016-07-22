@@ -39,10 +39,13 @@ Appium ios 环境
 Appium Python Client
 ------------------------------
 
+使用pip命令进行安装Appium Python Client
+
 .. code-block:: python:
 
     pip install Appium-Python-Client
 
+Python Api具体见第三章节
 
 用法
 ------------------------------

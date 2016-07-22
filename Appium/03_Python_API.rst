@@ -83,9 +83,10 @@ TouchAction:触摸操作
 .. code-block:: python
 
     from appium.webdriver.common.touch_action import TouchAction
-
+    
+    # 录制小视频的时候，长按录制10s
     action = TouchAction(driver)
-    action.long_press(element).release().perform()
+    action.long_press(element,None,None,10000).release().perform()
 
 
 
