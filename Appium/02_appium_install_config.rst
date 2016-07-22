@@ -39,6 +39,8 @@ Appium ios 环境
 Appium Python Client
 ------------------------------
 
+Appium Python Client封装了标准的selenium客户端类库, 为用户提供常见的selenium命令以及额外移动设备控制相关的命令.
+
 使用pip命令进行安装Appium Python Client
 
 .. code-block:: python:
