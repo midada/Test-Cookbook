@@ -11,7 +11,9 @@
 解决办法
 ----------------------
 
-在Appum config中增加下列代码：
+使用Appium键盘,appium执行时,会在Android手机安装一个特殊键盘（即Appium Android lnput Manager for Unicode)
+
+在Appum config中增加下列代码:
 
 .. code-block:: python
 
@@ -20,8 +22,8 @@
 
 解释：
 
-1. 使用unicodeKeyboard的编码方式发送字符
-2. 隐藏Android键盘
+1. 使用unicode的编码方式发送字符
+2. Unicode键盘并非虚拟键盘，在界面上不会显示出来
 
 
 说明
