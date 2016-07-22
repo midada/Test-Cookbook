@@ -64,15 +64,6 @@ Api: 屏幕、手势操作相关
 +-----------------------+-------------------------------------------------+
 |    屏幕缩放           |   driver.zoom(element=e1)                       |
 +-----------------------+-------------------------------------------------+
-
-
-TouchAction:触摸操作
-
-.. code-block:: python
-
-    from appium.webdriver.common.touch_action import TouchAction
-
-+-----------------------+-------------------------------------------------+
 |    长按               |     long_press()                                |
 +-----------------------+-------------------------------------------------+
 |     短按              |    press()                                      |
@@ -87,6 +78,16 @@ TouchAction:触摸操作
 +-----------------------+-------------------------------------------------+
 |      等待             |   wait()                                        |
 +-----------------------+-------------------------------------------------+
+
+TouchAction:触摸操作
+
+.. code-block:: python
+
+    from appium.webdriver.common.touch_action import TouchAction
+
+    action = TouchAction(driver)
+    action.long_press(element).release().perform()
+
 
 
 Api: 键盘操作相关
