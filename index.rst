@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-测试实用手册
+测试手册
 =========================================
 
 优秀的测试工程师，必定是一个深刻了解软件工程的人，是一个比产品更了解需求的人！
