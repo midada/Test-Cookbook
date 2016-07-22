@@ -63,6 +63,7 @@ Python Api具体见第三章节
 
     from appium import webdriver
     
+    #脚本运行需要增加下列环境参数    
     config = {
                 'platformName' = 'Android',
                 'platformVersion' = '6.0',
