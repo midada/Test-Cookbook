@@ -1,10 +1,21 @@
 
-Appium Python Api
+Appium Python Driver Api
 ==========================
 
 使用 Appium Python Client进行测试。
 
 https://github.com/appium/python-client
+
+API:元素定位
+--------------------
+
++-----------------------+-------------------------------------------------+
+| id定位                | driver.find_element_by_id(element)              |
++-----------------------+-------------------------------------------------+
+| xpath定位             | driver.find_element_by_xpath(element)           |
++-----------------------+-------------------------------------------------+
+
+
 
 API:应用安装卸载
 --------------------
