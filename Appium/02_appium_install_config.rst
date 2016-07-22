@@ -25,15 +25,16 @@ Mac安装
 Appium Andorid环境
 ------------------------------
 
-Android环境依赖于Java,  Android Sdk
-
+* Android ADK API >= 17
+* Java
 
 
 Appium ios 环境
 -----------------------------
 
-Appium ios运行依赖于Xcode 
-
+* Mac OS X 10.10以上版本
+* Xcode 6.0以上版本
+* Apple Developer Tools
 
 Appium Python Client
 ------------------------------
