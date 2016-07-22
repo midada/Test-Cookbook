@@ -66,3 +66,9 @@ Usage
             }
 
     driver = webdriver.Remote('http://localhost:4723/wd/hub',config)
+
+Get Android DevicesName:
+
+.. code-block:: java
+
+    adb devices -l
