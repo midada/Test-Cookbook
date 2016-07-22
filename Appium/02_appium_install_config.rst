@@ -7,9 +7,9 @@ Appium安装配置
 
 https://bitbucket.org/appium/appium.app/downloads/
 
-Windows Download:
+Windows Download: 下载exe可执行文件进行安装
 
-Mac Download:
+Mac Download: 下载dmg进行安装
 
 Mac安装
 ----------------------------
@@ -22,17 +22,17 @@ Mac安装
     > appium &               # start appium
     > node your-appium-test.js
 
-Andorid environmnet
+Appium Andorid环境
 ------------------------------
 
-Java,  Android Sdk
+Android环境依赖于Java,  Android Sdk
 
 
 
-ios environment
+Appium ios 环境
 -----------------------------
 
-Xcode 
+Appium ios运行依赖于Xcode 
 
 
 Appium Python Client
@@ -43,7 +43,7 @@ Appium Python Client
     pip install Appium-Python-Client
 
 
-Usage
+用法
 ------------------------------
 
 .. code-block:: python
@@ -51,7 +51,7 @@ Usage
     from appium import webdriver
     from selenium import webdriver
 
-**example**
+**例子**
 
 .. code-block:: python
 
@@ -67,7 +67,7 @@ Usage
 
     driver = webdriver.Remote('http://localhost:4723/wd/hub',config)
 
-Get Android DevicesName:
+使用Android sdk 自带的adb命令获取devicesName
 
 .. code-block:: java
 
