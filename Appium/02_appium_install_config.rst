@@ -2,6 +2,11 @@
 Appium安装配置 
 =============================
 
+下载地址
+------------------------------
+
+https://bitbucket.org/appium/appium.app/downloads/
+
 Mac安装
 ----------------------------
 
@@ -13,7 +18,4 @@ Mac安装
     > appium &               # start appium
     > node your-appium-test.js
 
-下载地址
-------------------------------
 
-https://bitbucket.org/appium/appium.app/downloads/
