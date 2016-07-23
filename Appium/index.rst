@@ -24,4 +24,3 @@
    09_chinese_input.rst
    appium_screenshot.rst 
    configparser.rst
-
