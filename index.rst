@@ -20,7 +20,8 @@
    AndroidTest/index
    Selenium/index
    Appium/index
-
+   Jmeter/index
+   Loadrunner/index
 
 Indices and tables
 ==================
